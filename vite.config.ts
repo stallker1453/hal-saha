@@ -12,10 +12,7 @@ export default defineConfig({
   },
   vite: {
     server: {
-      allowedHosts: [
-        "hal-saha.onrender.com",
-        "hal-saha-1.onrender.com",
-      ],
+      allowedHosts: true,
     },
   },
 });
